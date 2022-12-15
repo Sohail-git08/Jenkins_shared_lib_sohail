@@ -1,4 +1,4 @@
-def slackNotification(String buildStatus='STARTED'){
+def sslackNotification(String buildStatus='STARTED'){
 	//build status of null means SUCCESS
 	buildStatus = buildStatus ?:'SUCCESS'
 	
